@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>My Nightmare</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="firstpage.css">
+  <title></title>
+</head>
+<body>
+  
+  <audio id="audioPlayer" src="scary_music.mp3" loop autoplay></audio>
+
+  <script>
+    var audio = document.getElementById('audioPlayer');
+    audio.play();
+  </script>
+  
+
+  <div class="background"></div>
+  <div class="logo-container">
+    <a href="secondpage.html" id="enter-link">
+      <h1 class="centered-title">
+        <img src="images/logo.png" alt="Logo">
+      </h1>
+      <span class="hover-text">ENTER</span>
+    </a>
+  </div>
+  <script src="firstpage.js"></script>
+</body>
+</html>
